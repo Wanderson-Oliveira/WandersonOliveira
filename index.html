@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderson Oliveira - Desenvolvedor Web</title>
+    <meta name="description" content="Criação de sites de cartão virtual personalizados. Transforme sua presença digital com um cartão virtual profissional.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="themeToggle">🌙</div>
+    
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-laptop-code"></i>
+                <h1>Wanderson Oliveira</h1>
+            </div>
+            <p>Desenvolvedor Web & Especialista em Cloud Computing</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="profile">
+            <img src="capa.jpg" alt="Wanderson Oliveira - Desenvolvedor Web" class="profile-img">
+            <p>Itanhaém - SP | (12) 98216-5919</p>
+        </section>
+
+        <section class="glass-card card">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p>Possuo conhecimentos avançados na área de informática, sou professor, programador e estudante de Engenharia da Computação. Estou me especializando em Cloud Computing (AWS) e ofereço serviços de criação de cartões virtuais para profissionais e empresas que desejam ter uma presença digital moderna e eficiente.</p>
+        </section>
+
+        <section class="glass-card card">
+            <h2 class="section-title">Serviço de Criação de Cartão Virtual</h2>
+            <p>Ofereço serviços especializados na criação de sites de cartão virtual, com designs modernos e funcionais que ajudam profissionais e empresas a se destacarem online. Seu cartão virtual personalizado permite que clientes encontrem todas as suas informações de contato de forma rápida e elegante.</p>
+            
+            <div class="benefits">
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h3>Presença Profissional</h3>
+                        <p>Destaque-se com um cartão virtual personalizado</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h3>Acessibilidade</h3>
+                        <p>Seus clientes acessam suas informações de qualquer lugar</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h3>Atualizações Fáceis</h3>
+                        <p>Altere suas informações a qualquer momento</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services">
+                <div class="glass-card service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Criação de Site</h3>
+                    <p>Desenvolvimento completo de site de cartão virtual personalizado com design responsivo</p>
+                    <p class="price">R$ 100,00</p>
+                </div>
+                
+                <div class="glass-card service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>Inclusão de Vídeo</h3>
+                    <p>Adição e otimização de vídeos promocionais no seu site</p>
+                    <p class="price">+ R$ 50,00</p>
+                </div>
+                
+                <div class="glass-card service-card" onclick="scrollToContact()">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Manutenção</h3>
+                    <p>Atualizações e alterações futuras no site conforme necessário</p>
+                    <p class="price">R$ 20,00 ~ R$ 50,00</p>
+                </div>
+            </div>
+            
+            <h3>Tabela de Preços Completa</h3>
+            <table class="price-table">
+                <tr>
+                    <th>Serviço</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Criação do Site</td>
+                    <td>Desenvolvimento completo do site de cartão virtual responsivo</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td>Adição de Vídeo</td>
+                    <td>Inclusão de vídeo personalizado no site com otimização</td>
+                    <td>+ R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>Alterações Futuras</td>
+                    <td>Manutenção e atualizações do site (preço varia conforme complexidade)</td>
+                    <td>R$ 20,00 ~ R$ 50,00</td>
+                </tr>
+            </table>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="https://wa.me/5512982165919?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20de%20criação%20de%20sites." class="btn">
+                    <i class="fab fa-whatsapp"></i> Entre em Contato
+                </a>
+            </div>
+        </section>
+
+        <section class="glass-card card">
+            <h2 class="section-title">Meus Projetos</h2>
+            <p>Confira alguns dos sites de cartão virtual que desenvolvi recentemente:</p>
+            <br>
+            
+            <div class="projects">
+                <div class="glass-card project-card" onclick="window.open('https://wanderson-oliveira.github.io/InstitutoMixIta/', '_blank')">
+                    <div class="project-img-container">
+                        <img src="IM.png" alt="Instituto Mix Ita - Cartão virtual para escola de cursos" class="project-img" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Instituto Mix Ita</h3>
+                        <p class="project-description">Cartão virtual para escola de cursos profissionalizantes com informações de cursos e contatos.</p>
+                        <a href="https://wanderson-oliveira.github.io/InstitutoMixIta/" class="project-link" target="_blank">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="glass-card project-card" onclick="window.open('https://wanderson-oliveira.github.io/CAImoveis/', '_blank')">
+                    <div class="project-img-container">
+                        <img src="CA.png" alt="CA Imóveis - Site para imobiliária" class="project-img" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CA Imóveis</h3>
+                        <p class="project-description">Site para imobiliária com informações de contato dos corretores.</p>
+                        <a href="https://wanderson-oliveira.github.io/CAImoveis/" class="project-link" target="_blank">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="glass-card project-card" onclick="window.open('https://wanderson-oliveira.github.io/DRIArts/', '_blank')">
+                    <div class="project-img-container">
+                        <img src="DRI.png" alt="DRI Arts - Cartão virtual para artista" class="project-img" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DRI Arts</h3>
+                        <p class="project-description">Cartão virtual de contatos para artistas independentes com portfólio e informações de contato.</p>
+                        <a href="https://wanderson-oliveira.github.io/DRIArts/" class="project-link" target="_blank">
+                            Ver projeto <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-card card">
+            <h2 class="section-title">Contato</h2>
+            <p>Entre em contato comigo através dos canais abaixo para solicitar um orçamento ou tirar dúvidas sobre meus serviços:</p>
+            
+            <div class="contact-cards">
+                <a href="https://www.linkedin.com/in/wanderson-a-oliveira/" class="glass-card contact-card" target="_blank">
+                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>Conecte-se profissionalmente e veja minha experiência</p>
+                </a>
+                
+                <a href="https://wa.me/5512982165919?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20de%20criação%20de%20sites." class="glass-card contact-card" target="_blank">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>(12) 98216-5919</p>
+                    <small>Clique para conversar diretamente</small>
+                </a>
+                
+                <a href="https://github.com/Wanderson-Oliveira" class="glass-card contact-card" target="_blank">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>Veja meus projetos e contribuições no mundo do desenvolvimento</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="glass-card card">
+            <h2 class="section-title">Formação</h2>
+            <p><strong>Engenharia da Computação</strong> – UNIVESP | jul./2023 – Cursando</p>
+            <p><strong>Técnico em Eletromecânica</strong> – ETEC Guaratinguetá | fev./2014 – jul./2015</p>
+        </section>
+
+        <section class="glass-card card">
+            <h2 class="section-title">Habilidades</h2>
+            <p><strong>Técnicas:</strong> Fundamentos de Cloud Computing | Serviços AWS (EC2, S3, RDS, IAM, Lambda, etc.) | Banco de Dados (MySQL) | Programação WEB (CSS, HTML, Java Script) | Java WEB</p>
+            <p><strong>Comportamentais:</strong> Aprendizado Contínuo | Resolução de Problemas | Gestão de equipe | Criatividade | Adaptabilidade</p>
+        </section>
+    </div>
+
+    <footer class="glass-card">
+        <p>© 2025 Wanderson Oliveira - Desenvolvedor Web</p>
+        <p>Entre em contato: (12) 98216-5919 | Itanhaém - SP</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
